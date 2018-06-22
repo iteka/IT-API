@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "Console_groups",
+  "info": {
+    "name": "consolegroups",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Console": {
+      "type": "string"
+    },
+    "Games": {
+      "type": "string"
+    }
+  }
+}

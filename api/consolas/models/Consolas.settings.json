@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "consolas",
+  "info": {
+    "name": "consolas",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "sescription": {
+      "type": "string"
+    },
+    "games": {
+      "type": "string"
+    },
+    "Console_credentials": {
+      "type": "string"
+    },
+    "Console_group_id": {
+      "model": "consolegroups"
+    }
+  }
+}

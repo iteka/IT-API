@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "Games",
+  "info": {
+    "name": "games",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Consoles": {
+      "type": "string"
+    }
+  }
+}

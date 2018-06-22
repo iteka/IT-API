@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "Consolas_games",
+  "info": {
+    "name": "consolasgames",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Console_id": {
+      "type": "string"
+    },
+    "Game_id": {
+      "type": "string"
+    }
+  }
+}

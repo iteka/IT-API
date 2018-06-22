@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "subscriptions",
+  "info": {
+    "name": "subscriptions",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Start_date": {
+      "type": "date"
+    },
+    "End_date": {
+      "type": "date"
+    },
+    "UserID": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "Console_id": {
+      "model": "consolas"
+    }
+  }
+}

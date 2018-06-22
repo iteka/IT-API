@@ -1,0 +1,75 @@
+{
+  "consolas": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "sescription": {
+        "appearance": ""
+      },
+      "games": {
+        "appearance": ""
+      },
+      "Console_credentials": {
+        "appearance": ""
+      }
+    }
+  },
+  "consoleSubscriptions": {
+    "attributes": {
+      "Status": {
+        "appearance": ""
+      }
+    }
+  },
+  "consoleGroups": {
+    "attributes": {
+      "Console": {
+        "appearance": ""
+      },
+      "Games": {
+        "appearance": ""
+      }
+    }
+  },
+  "subscriptions": {
+    "attributes": {
+      "Start_date": {
+        "appearance": ""
+      },
+      "End_date": {
+        "appearance": ""
+      }
+    }
+  },
+  "credentials": {
+    "attributes": {
+      "VPN_credentials": {
+        "appearance": ""
+      }
+    }
+  },
+  "consolasGames": {
+    "attributes": {
+      "Console_id": {
+        "appearance": ""
+      },
+      "Game_id": {
+        "appearance": ""
+      }
+    }
+  },
+  "games": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Description": {
+        "appearance": ""
+      },
+      "Consoles": {
+        "appearance": ""
+      }
+    }
+  }
+}

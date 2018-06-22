@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "Console_subscriptions",
+  "info": {
+    "name": "consolesubscriptions",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Status": {
+      "type": "boolean"
+    },
+    "Console_id": {
+      "model": "consolas"
+    },
+    "Subscription_id": {
+      "model": "subscriptions"
+    }
+  }
+}

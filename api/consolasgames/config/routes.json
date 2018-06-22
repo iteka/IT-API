@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/consolasgames",
+      "handler": "Consolasgames.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/consolasgames/count",
+      "handler": "Consolasgames.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/consolasgames/:_id",
+      "handler": "Consolasgames.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/consolasgames",
+      "handler": "Consolasgames.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/consolasgames/:_id",
+      "handler": "Consolasgames.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/consolasgames/:_id",
+      "handler": "Consolasgames.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
