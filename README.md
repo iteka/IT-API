@@ -145,9 +145,10 @@
             }
         }
     ]
+
+
 #### Console details
 **GRT** > URL: http://localhost:1337/Consoles/_id
-		  
 
 
  
