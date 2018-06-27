@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/demohistory",
+      "handler": "Demohistory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/demohistory/count",
+      "handler": "Demohistory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/demohistory/:_id",
+      "handler": "Demohistory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/demohistory",
+      "handler": "Demohistory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/demohistory/:_id",
+      "handler": "Demohistory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/demohistory/:_id",
+      "handler": "Demohistory.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

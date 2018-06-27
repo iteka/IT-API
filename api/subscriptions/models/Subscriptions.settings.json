@@ -9,18 +9,30 @@
     "timestamps": true
   },
   "attributes": {
-    "Start_date": {
+    "console": {
+      "model": "consoles",
+      "via": "undefined"
+    },
+    "start_date": {
       "type": "date"
     },
-    "End_date": {
+    "end_date": {
       "type": "date"
     },
-    "UserID": {
+    "active": {
+      "type": "boolean"
+    },
+    "payment": {
+      "model": "payments",
+      "via": "subscription"
+    },
+    "user": {
       "model": "user",
+      "via": "subscriptions",
       "plugin": "users-permissions"
     },
-    "Console_id": {
-      "model": "consolas"
+    "consoleGroup": {
+      "model": "consolegroups"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "Games",
+  "collectionName": "",
   "info": {
     "name": "games",
     "description": ""
@@ -9,14 +9,28 @@
     "timestamps": true
   },
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Description": {
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "youtube_url": {
       "type": "string"
     },
-    "Consoles": {
-      "type": "string"
+    "genres": {
+      "collection": "genres",
+      "via": "games",
+      "dominant": true
+    },
+    "consoleGroups": {
+      "collection": "consolegroups",
+      "via": "games"
     }
   }
 }

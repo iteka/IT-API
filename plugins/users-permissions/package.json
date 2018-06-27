@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.0.0-alpha.12.5.tgz",
   "_shasum": "157b18347a6ae1e30e332f4952382205cfadc428",
   "_spec": "strapi-plugin-users-permissions@alpha",
-  "_where": "C:\\Users\\Kasper\\Documents\\PROJEKT\\IT-API",
+  "_where": "/home/IT-API",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
@@ -82,23 +82,5 @@
     "icon": "users",
     "description": "users-permissions.plugin.description"
   },
-  "version": "3.0.0-alpha.12.5",
-  "warnings": [
-    {
-      "code": "ENOTSUP",
-      "required": {
-        "node": ">= 9.0.0",
-        "npm": ">= 5.0.0"
-      },
-      "pkgid": "strapi-plugin-users-permissions@3.0.0-alpha.12.5"
-    },
-    {
-      "code": "ENOTSUP",
-      "required": {
-        "node": ">= 9.0.0",
-        "npm": ">= 5.0.0"
-      },
-      "pkgid": "strapi-plugin-users-permissions@3.0.0-alpha.12.5"
-    }
-  ]
+  "version": "3.0.0-alpha.12.5"
 }

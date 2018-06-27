@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/consolecredentials",
+      "handler": "Consolecredentials.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/consolecredentials/count",
+      "handler": "Consolecredentials.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/consolecredentials/:_id",
+      "handler": "Consolecredentials.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/consolecredentials",
+      "handler": "Consolecredentials.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/consolecredentials/:_id",
+      "handler": "Consolecredentials.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/consolecredentials/:_id",
+      "handler": "Consolecredentials.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

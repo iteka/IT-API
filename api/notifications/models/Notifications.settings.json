@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "notifications",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "model": "user",
+      "via": "notifications",
+      "plugin": "users-permissions"
+    },
+    "body": {
+      "type": "text"
+    },
+    "readed": {
+      "type": "boolean"
+    }
+  }
+}

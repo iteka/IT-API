@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.0.0-alpha.12.5.tgz",
   "_shasum": "978f638224516e6fa718a81dcec1efcf9a56894d",
   "_spec": "strapi-plugin-email@alpha",
-  "_where": "C:\\Users\\Kasper\\Documents\\PROJEKT\\IT-API",
+  "_where": "/home/IT-API",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
@@ -77,23 +77,5 @@
     "icon": "paper-plane",
     "description": "email.plugin.description"
   },
-  "version": "3.0.0-alpha.12.5",
-  "warnings": [
-    {
-      "code": "ENOTSUP",
-      "required": {
-        "node": ">= 9.0.0",
-        "npm": ">= 5.0.0"
-      },
-      "pkgid": "strapi-plugin-email@3.0.0-alpha.12.5"
-    },
-    {
-      "code": "ENOTSUP",
-      "required": {
-        "node": ">= 9.0.0",
-        "npm": ">= 5.0.0"
-      },
-      "pkgid": "strapi-plugin-email@3.0.0-alpha.12.5"
-    }
-  ]
+  "version": "3.0.0-alpha.12.5"
 }

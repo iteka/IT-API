@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/consoles",
+      "handler": "Consoles.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/consoles/count",
+      "handler": "Consoles.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/consoles/:_id",
+      "handler": "Consoles.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/consoles",
+      "handler": "Consoles.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/consoles/:_id",
+      "handler": "Consoles.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/consoles/:_id",
+      "handler": "Consoles.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

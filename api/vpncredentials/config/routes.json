@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vpncredentials",
+      "handler": "Vpncredentials.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vpncredentials/count",
+      "handler": "Vpncredentials.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vpncredentials/:_id",
+      "handler": "Vpncredentials.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vpncredentials",
+      "handler": "Vpncredentials.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vpncredentials/:_id",
+      "handler": "Vpncredentials.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vpncredentials/:_id",
+      "handler": "Vpncredentials.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

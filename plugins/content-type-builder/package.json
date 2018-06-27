@@ -21,7 +21,7 @@
   "_resolved": "https://registry.npmjs.org/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-alpha.12.5.tgz",
   "_shasum": "a492965d1316a75ffe38aa38aaa0bfaf579264a2",
   "_spec": "strapi-plugin-content-type-builder@alpha",
-  "_where": "C:\\Users\\Kasper\\Documents\\PROJEKT\\IT-API",
+  "_where": "/home/IT-API",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
@@ -78,23 +78,5 @@
     "icon": "paint-brush",
     "description": "content-type-builder.plugin.description"
   },
-  "version": "3.0.0-alpha.12.5",
-  "warnings": [
-    {
-      "code": "ENOTSUP",
-      "required": {
-        "node": ">= 9.0.0",
-        "npm": ">= 5.0.0"
-      },
-      "pkgid": "strapi-plugin-content-type-builder@3.0.0-alpha.12.5"
-    },
-    {
-      "code": "ENOTSUP",
-      "required": {
-        "node": ">= 9.0.0",
-        "npm": ">= 5.0.0"
-      },
-      "pkgid": "strapi-plugin-content-type-builder@3.0.0-alpha.12.5"
-    }
-  ]
+  "version": "3.0.0-alpha.12.5"
 }

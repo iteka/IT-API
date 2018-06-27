@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "payments",
+  "info": {
+    "name": "payments",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "consoleGroup": {
+      "model": "consolegroups",
+      "via": "undefined"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "failed",
+        "processing",
+        "pending",
+        "success"
+      ]
+    },
+    "user": {
+      "model": "user",
+      "via": "payments",
+      "plugin": "users-permissions"
+    },
+    "subscription": {
+      "model": "subscriptions",
+      "via": "payment"
+    },
+    "paymentType": {
+      "model": "paymenttypes"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "Console_groups",
+  "collectionName": "consolegroups",
   "info": {
     "name": "consolegroups",
     "description": ""
@@ -9,11 +9,32 @@
     "timestamps": true
   },
   "attributes": {
-    "Console": {
+    "name": {
       "type": "string"
     },
-    "Games": {
-      "type": "string"
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "games": {
+      "collection": "games",
+      "via": "consoleGroups",
+      "dominant": true
+    },
+    "consoles": {
+      "collection": "consoles",
+      "via": "consoleGroup"
+    },
+    "undefined": {
+      "collection": "payments",
+      "via": "consoleGroup"
+    },
+    "available": {
+      "type": "boolean"
     }
   }
 }

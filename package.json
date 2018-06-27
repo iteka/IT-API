@@ -20,23 +20,24 @@
   },
   "dependencies": {
     "lodash": "4.x.x",
+    "node-machine-id": "^1.1.10",
     "strapi": "3.0.0-alpha.12.5",
     "strapi-mongoose": "3.0.0-alpha.12.5"
   },
   "author": {
-    "name": "A Strapi developer",
+    "name": "root",
     "email": "",
     "url": ""
   },
   "maintainers": [
     {
-      "name": "A Strapi developer",
+      "name": "root",
       "email": "",
       "url": ""
     }
   ],
   "strapi": {
-    "uuid": "a79a0034-853d-4e50-8ffe-ca78b87d7f35"
+    "uuid": "6037c895-dbe0-468b-8748-94bc873562fc"
   },
   "engines": {
     "node": ">= 9.0.0",

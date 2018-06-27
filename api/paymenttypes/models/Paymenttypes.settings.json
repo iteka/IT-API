@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "paymenttypes",
+  "info": {
+    "name": "paymenttypes",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}

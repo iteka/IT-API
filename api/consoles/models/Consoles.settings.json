@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "consoles",
+  "info": {
+    "name": "consoles",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "consoleGroup": {
+      "model": "consolegroups",
+      "via": "consoles"
+    },
+    "undefined": {
+      "model": "subscriptions",
+      "via": "console"
+    }
+  }
+}

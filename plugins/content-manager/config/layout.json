@@ -1,73 +1,150 @@
 {
-  "consolas": {
+  "demoHistory": {
     "attributes": {
-      "Name": {
-        "appearance": ""
-      },
-      "sescription": {
-        "appearance": ""
-      },
-      "games": {
-        "appearance": ""
-      },
-      "Console_credentials": {
+      "fingerprint": {
         "appearance": ""
       }
     }
   },
-  "consoleSubscriptions": {
+  "notifications": {
     "attributes": {
-      "Status": {
-        "appearance": ""
-      }
-    }
-  },
-  "consoleGroups": {
-    "attributes": {
-      "Console": {
+      "body": {
         "appearance": ""
       },
-      "Games": {
+      "readed": {
         "appearance": ""
       }
     }
   },
-  "subscriptions": {
+  "genres": {
     "attributes": {
-      "Start_date": {
+      "name": {
         "appearance": ""
       },
-      "End_date": {
-        "appearance": ""
-      }
-    }
-  },
-  "credentials": {
-    "attributes": {
-      "VPN_credentials": {
-        "appearance": ""
-      }
-    }
-  },
-  "consolasGames": {
-    "attributes": {
-      "Console_id": {
-        "appearance": ""
-      },
-      "Game_id": {
+      "description": {
         "appearance": ""
       }
     }
   },
   "games": {
     "attributes": {
-      "Name": {
+      "name": {
         "appearance": ""
       },
-      "Description": {
+      "description": {
         "appearance": ""
       },
-      "Consoles": {
+      "youtube_url": {
+        "appearance": ""
+      }
+    }
+  },
+  "consoleGroups": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      }
+    }
+  },
+  "consoles": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "available": {
+        "appearance": ""
+      }
+    }
+  },
+  "subscriptions": {
+    "attributes": {
+      "start_date": {
+        "appearance": ""
+      },
+      "end_date": {
+        "appearance": ""
+      },
+      "active": {
+        "appearance": ""
+      }
+    }
+  },
+  "paymentTypes": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      },
+      "featured": {
+        "appearance": ""
+      },
+      "price": {
+        "appearance": ""
+      }
+    }
+  },
+  "payments": {
+    "attributes": {
+      "status": {
+        "appearance": ""
+      }
+    }
+  },
+  "consolecredentials": {
+    "attributes": {
+      "credentials": {
+        "appearance": ""
+      }
+    }
+  },
+  "vpncredentials": {
+    "attributes": {
+      "vpnCredentials": {
+        "appearance": ""
+      },
+      "active": {
+        "appearance": ""
+      }
+    }
+  },
+  "consolegroups": {
+    "attributes": {
+      "available": {
+        "appearance": ""
+      }
+    }
+  },
+  "paymenttypes": {
+    "attributes": {
+      "price": {
+        "appearance": ""
+      }
+    }
+  },
+  "slider": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      },
+      "actionLabel": {
+        "appearance": ""
+      }
+    }
+  },
+  "sliderItems": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "description": {
         "appearance": ""
       }
     }
